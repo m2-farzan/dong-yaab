@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.mostafa.dong.dong.balancer">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:padding="0dp"
+                android:layout_margin="0dp" android:orientation="vertical">
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TableRow android:background="@color/blk">
+                <TextView  android:text="نام" android:textSize="20dp" android:textColor="@color/wht"
+                          android:textStyle="bold"
+                          android:id="@+id/urh" android:layout_margin="10dp"/>
+                <TextView android:text="خـرج" android:textSize="20dp" android:textColor="@color/wht"
+                          android:textStyle="bold"
+                          android:id="@+id/pdh" android:layout_margin="10dp"/>
+                <TextView android:text="دخـل" android:textSize="20dp" android:textColor="@color/wht"
+                          android:textStyle="bold"
+                          android:id="@+id/udh" android:layout_margin="10dp"/>
+                <TextView android:text="تراز" android:textSize="20dp" android:textColor="@color/wht"
+                          android:textStyle="bold"
+                          android:id="@+id/blh" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView  android:text="مصطفی" android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold"
+                           android:id="@+id/ur0" android:layout_margin="10dp"/>
+                <TextView android:text="21.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/pd0" android:layout_margin="10dp"/>
+                <TextView android:text="10.0" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/ud0" android:layout_margin="10dp"/>
+                <TextView android:text="+11.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/bl0" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView  android:text="مصطفی" android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold"
+                           android:id="@+id/ur1" android:layout_margin="10dp"/>
+                <TextView android:text="21.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/pd1" android:layout_margin="10dp"/>
+                <TextView android:text="10.0" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/ud1" android:layout_margin="10dp"/>
+                <TextView android:text="+11.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/bl1" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView  android:text="مصطفی" android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold"
+                           android:id="@+id/ur2" android:layout_margin="10dp"/>
+                <TextView android:text="21.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/pd2" android:layout_margin="10dp"/>
+                <TextView android:text="10.0" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/ud2" android:layout_margin="10dp"/>
+                <TextView android:text="+11.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/bl2" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView  android:text="مصطفی" android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold"
+                           android:id="@+id/ur3" android:layout_margin="10dp"/>
+                <TextView android:text="21.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/pd3" android:layout_margin="10dp"/>
+                <TextView android:text="10.0" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/ud3" android:layout_margin="10dp"/>
+                <TextView android:text="+11.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/bl3" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView  android:text="مصطفی" android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold"
+                           android:id="@+id/ur4" android:layout_margin="10dp"/>
+                <TextView android:text="21.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/pd4" android:layout_margin="10dp"/>
+                <TextView android:text="10.0" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/ud4" android:layout_margin="10dp"/>
+                <TextView android:text="+11.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/bl4" android:layout_margin="10dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView  android:text="مصطفی" android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold"
+                           android:id="@+id/ur5" android:layout_margin="10dp"/>
+                <TextView android:text="21.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/pd5" android:layout_margin="10dp"/>
+                <TextView android:text="10.0" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/ud5" android:layout_margin="10dp"/>
+                <TextView android:text="+11.2" android:textSize="20dp" android:textColor="@color/blk"
+                          android:textStyle="bold"
+                          android:id="@+id/bl5" android:layout_margin="10dp"/>
+            </TableRow>
+
+        </TableLayout>
+            <Button
+                    android:textSize="20dp" android:textStyle="bold" android:tag="rnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lea"
+                    android:textColor="#000000"
+                    android:text="نمایش تسویه حساب گرد شده"
+                    android:layout_margin="5dp" android:id="@+id/show_rnd"/>
+            <Button
+                    android:textSize="20dp" android:textStyle="bold" android:tag="ext"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lea"
+                    android:textColor="#000000"
+                    android:text="نمایش تسویه حساب دقیق"
+                    android:layout_margin="5dp" android:id="@+id/show_ext"/>
+            <Button
+                    android:textSize="20dp" android:textStyle="bold" android:tag="tbl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lea"
+                    android:textColor="#000000"
+                    android:text="نمایش تسویه حساب میزی"
+                    android:layout_margin="5dp" android:id="@+id/show_tbl"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

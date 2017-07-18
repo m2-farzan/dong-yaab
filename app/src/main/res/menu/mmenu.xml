@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:compat="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/users"
+            android:orderInCategory="900"
+            compat:showAsAction="always"
+            android:icon="@drawable/users"
+            android:title="لیست افراد"/>
+    <item
+            android:id="@+id/add"
+            android:orderInCategory="1000"
+            compat:showAsAction="always"
+            android:icon="@drawable/add"
+            android:title="مورد جدید"/>
+    <item
+            android:id="@+id/clear"
+            android:orderInCategory="10"
+            compat:showAsAction="always"
+            android:icon="@drawable/clear"
+            android:title="خالی کردن لیست"/>
+    <item
+            android:id="@+id/sumup"
+            android:orderInCategory="100"
+            compat:showAsAction="always"
+            android:icon="@drawable/sumup"
+            android:title="محاسبه دونگ"/>
+</menu>

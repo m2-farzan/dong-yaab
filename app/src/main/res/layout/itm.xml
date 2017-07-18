@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:padding="5dp"
+           android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/remov" android:background="@drawable/redc"
+            android:layout_height="30dp" android:layout_width="30dp" android:layout_margin="10dp"/>
+<EditText
+        android:text=""
+        android:inputType="numberDecimal"
+        android:background="@color/wht"
+        android:padding="5sp"
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:layout_margin="5dp"
+        />
+    <EditText
+            android:text=""
+            android:background="@color/wht"
+            android:padding="5sp"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            />
+
+<!--<EditText-->
+        <!--android:text="Mostafa"-->
+        <!--android:background="@color/wht"-->
+        <!--android:padding="5sp"-->
+        <!--android:layout_width="100sp"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/buyer"-->
+        <!--/>-->
+    <Spinner
+            android:background="@color/wht"
+            android:padding="5sp"
+            android:layout_width="100sp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyer"
+            android:spinnerMode="dropdown"
+            />
+
+<CheckBox android:id="@+id/c0" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="45dp"/>
+<CheckBox android:id="@+id/c1" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="64dp" android:gravity="start"/>
+<CheckBox android:id="@+id/c2" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="64dp" android:gravity="start"/>
+<CheckBox android:id="@+id/c3" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="64dp" android:gravity="start"/>
+<CheckBox android:id="@+id/c4" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="64dp" android:gravity="start"/>
+<CheckBox android:id="@+id/c5" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="64dp" android:gravity="start"/>
+</TableRow>

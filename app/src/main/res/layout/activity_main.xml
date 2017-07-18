@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.mostafa.dong.dong.MainActivity"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        >
+    <HorizontalScrollView
+            android:id="@+id/rtlf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_weight="1" android:layoutDirection="rtl"
+            >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:orientation="vertical">
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+            <TableRow android:gravity="center_vertical">
+                <ImageButton android:id="@+id/remov" android:background="@drawable/redc"
+                             android:layout_height="30dp" android:layout_width="30dp" android:layout_margin="10dp" android:visibility="invisible"/>
+                <TextView
+                        android:ellipsize="start"
+                        android:text="قیمت"
+                        android:gravity="center"
+                        android:layout_width="60sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                <TextView
+                        android:ellipsize="start"
+                        android:text="نام آیتم"
+                        android:gravity="center"
+                        android:layout_width="100sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+                <TextView
+                        android:text="انجام دهنده"
+                        android:gravity="center"
+                        android:layout_width="100sp" android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                <TextView
+                        android:text="Mostafa1"
+                        android:rotation="-45"
+                        android:layout_height="50dp"
+                        android:layout_width="64dp"
+                        android:gravity="center"
+                        android:id="@+id/header_u0"
+                        android:textColor="#000000"
+                        />
+                <TextView
+                        android:text="Mostafa1"
+                        android:rotation="-45"
+                        android:layout_height="50dp"
+                        android:layout_width="64dp"
+                        android:gravity="center"
+                        android:id="@+id/header_u1"
+                        android:textColor="#000000"
+                        />
+                <TextView
+                        android:text="Mostafa1"
+                        android:rotation="-45"
+                        android:layout_height="50dp"
+                        android:layout_width="64dp"
+                        android:gravity="center"
+                        android:id="@+id/header_u2"
+                        android:textColor="#000000"
+                        />
+                <TextView
+                        android:text="Mostafa1"
+                        android:rotation="-45"
+                        android:layout_height="50dp"
+                        android:layout_width="64dp"
+                        android:gravity="center"
+                        android:id="@+id/header_u3"
+                        android:textColor="#000000"
+                        />
+                <TextView
+                        android:text="Mostafa1"
+                        android:rotation="-45"
+                        android:layout_height="50dp"
+                        android:layout_width="64dp"
+                        android:gravity="center"
+                        android:id="@+id/header_u4"
+                        android:textColor="#000000"
+                        />
+                <TextView
+                        android:text="Mostafa1"
+                        android:rotation="-45"
+                        android:layout_height="50dp"
+                        android:layout_width="64dp"
+                        android:gravity="center"
+                        android:id="@+id/header_u5"
+                        android:textColor="#000000"
+                        />
+
+            </TableRow>
+        </TableLayout>
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/items"
+                android:animateLayoutChanges="true"
+                >
+
+            <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center_vertical" android:padding="5dp">-->
+
+                <!--<EditText-->
+                        <!--android:text="Item name: Describition"-->
+                        <!--android:background="@color/wht"-->
+                        <!--android:padding="5sp"-->
+                        <!--android:layout_width="150sp"-->
+                        <!--/>-->
+
+                <!--<EditText-->
+                        <!--android:text="Mostafa"-->
+                        <!--android:background="@color/wht"-->
+                        <!--android:padding="5sp"-->
+                        <!--android:layout_width="100sp"-->
+                        <!--android:layout_margin="5dp"-->
+                        <!--/>-->
+
+                <!--<CheckBox android:layout_gravity="center" android:layout_width="45dp"/>-->
+                <!--<CheckBox android:layout_gravity="center" android:layout_width="64dp" android:gravity="start"/>-->
+                <!--<CheckBox android:layout_gravity="center" android:layout_width="64dp" android:gravity="start"/>-->
+                <!--<CheckBox android:layout_gravity="center" android:layout_width="64dp" android:gravity="start"/>-->
+                <!--<CheckBox android:layout_gravity="center" android:layout_width="64dp" android:gravity="start"/>-->
+                <!--<CheckBox android:layout_gravity="center" android:layout_width="64dp" android:gravity="start"/>-->
+            <!--</TableRow>-->
+        </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.mostafa.dong.dong.report">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:padding="0dp"
+                android:layout_margin="0dp" android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            <TableRow android:background="@color/bg" android:layout_margin="5dp" android:padding="5dp">
+                <TextView  android:text="مصطفی 10.5kt به عمو بدهد." android:textSize="20dp" android:textColor="@color/blk"
+                           android:textStyle="bold" android:layout_height="40dp" android:gravity="center_vertical"
+                           android:id="@+id/x0" android:layout_width="match_parent"
+                           android:layout_weight="1" android:textDirection="rtl"
+                        />
+            </TableRow>
+                <TableRow android:background="@color/bg" android:layout_margin="5dp" android:padding="5dp">
+                    <TextView  android:text="مصطفی 10.5kt به عمو بدهد." android:textSize="20dp" android:textColor="@color/blk"
+                               android:textStyle="bold" android:layout_height="40dp" android:gravity="center_vertical"
+                               android:id="@+id/x1" android:layout_width="match_parent"
+                               android:layout_weight="1" android:textDirection="rtl"
+                            />
+                </TableRow>
+                <TableRow android:background="@color/bg" android:layout_margin="5dp" android:padding="5dp">
+                    <TextView  android:text="مصطفی 10.5kt به عمو بدهد." android:textSize="20dp" android:textColor="@color/blk"
+                               android:textStyle="bold" android:layout_height="40dp" android:gravity="center_vertical"
+                               android:id="@+id/x2" android:layout_width="match_parent"
+                               android:layout_weight="1" android:textDirection="rtl"
+                            />
+                </TableRow>
+                <TableRow android:background="@color/bg" android:layout_margin="5dp" android:padding="5dp">
+                    <TextView  android:text="مصطفی 10.5kt به عمو بدهد." android:textSize="20dp" android:textColor="@color/blk"
+                               android:textStyle="bold" android:layout_height="40dp" android:gravity="center_vertical"
+                               android:id="@+id/x3" android:layout_width="match_parent"
+                               android:layout_weight="1" android:textDirection="rtl"
+                            />
+                </TableRow>
+                <TableRow android:background="@color/bg" android:layout_margin="5dp" android:padding="5dp">
+                    <TextView  android:text="مصطفی 10.5kt به عمو بدهد." android:textSize="20dp" android:textColor="@color/blk"
+                               android:textStyle="bold" android:layout_height="40dp" android:gravity="center_vertical"
+                               android:id="@+id/x4" android:layout_width="match_parent"
+                               android:layout_weight="1" android:textDirection="rtl"
+                            />
+                </TableRow>
+
+
+        </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
